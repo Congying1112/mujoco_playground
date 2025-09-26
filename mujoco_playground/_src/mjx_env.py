@@ -99,7 +99,7 @@ def ensure_menagerie_exists() -> None:
 
     try:
       _clone_with_progress(
-          "https://github.com/deepmind/mujoco_menagerie.git",
+          "https://github.com/Congying1112/mujoco_menagerie.git",
           str(MENAGERIE_PATH),
           MENAGERIE_COMMIT_SHA,
       )
